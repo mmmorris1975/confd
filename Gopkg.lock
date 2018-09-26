@@ -10,7 +10,7 @@
   version = "v0.3.0"
 
 [[projects]]
-  digest = "1:f11813cd62ed3f8c1e8814d71a3da8462a200fe1053bef79c2c5ef162bc1acc7"
+  digest = "1:992297b81c8462e7b52ade464ad90d4a712d5d5ef54da0f163598b979a43a7a2"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -40,6 +40,7 @@
     "private/protocol/rest",
     "private/protocol/xml/xmlutil",
     "service/dynamodb",
+    "service/kms",
     "service/ssm",
     "service/sts",
   ]
@@ -436,6 +437,7 @@
     "github.com/aws/aws-sdk-go/aws/session",
     "github.com/aws/aws-sdk-go/private/protocol/json/jsonutil",
     "github.com/aws/aws-sdk-go/service/dynamodb",
+    "github.com/aws/aws-sdk-go/service/kms",
     "github.com/aws/aws-sdk-go/service/ssm",
     "github.com/coreos/etcd/client",
     "github.com/coreos/etcd/clientv3",
